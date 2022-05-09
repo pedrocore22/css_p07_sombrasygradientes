@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 100vh;
+    /* Para usar gradientes utilizamos la propiedad
+    background con los prefijos de proveedor y linear-gradient */
+    /* background: -webkit-linear-gradient(top, #e54eab 50%, #e00d2c);
+    background: -moz-linear-gradient(top, #e54eab 50%, #e00d2c);
+    background: -o-linear-gradient(top, #e54eab 50%, #e00d2c);
+    background: -ms-linear-gradient(top, #e54eab 50%, #e00d2c); */
+    /* Si queremos gradientes circulares es igual
+    pero con el método radial-gradient */
+    background: -webkit-radial-gradient(circle, #e54eab 20%, #e00d2c);
+    background: -moz-radial-gradient(circle, #e54eab 20%, #e00d2c);
+    background: -o-radial-gradient(circle, #e54eab 20%, #e00d2c);
+    background: -ms-radial-gradient(circle, #e54eab 20%, #e00d2c);
+
+}
+
+.hero h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-size: 44px;
+}
