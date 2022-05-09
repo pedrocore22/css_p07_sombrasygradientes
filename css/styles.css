@@ -1,0 +1,31 @@
+/* Sombreado en CSS usa box-shadow que recibe
+los mismos valores que text-shadow
+dimension x - dimension  y - difuminado - color */
+
+
+.card {
+    width: 360px;
+    height: 440px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Se pueden poner varias sombras en todos lados */
+/* Separando por comas los 4 valores */
+
+.card-2 {
+    margin-top: 20px;
+    width: 360px;
+    height: 440px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 
+                -2px -2px 4px rgba(0, 0, 0, 0.3),
+                -2px 2px 4px rgba(0, 0, 0, 0.3),
+                2px -2px 4px rgba(0, 0, 0, 0.3);
+}
